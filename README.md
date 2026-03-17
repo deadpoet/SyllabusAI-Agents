@@ -62,5 +62,3 @@ PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1 uv run run_crew training2.pdf Self-Paced 2
 - * I use the string PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1 because I used Python >3.13.
 
 #### Developed by Gerald Soco Senior Technical Writer & Instructional Design Specialist
-# SyllabusAI-Agents
-# SyllabusAI-Agents
