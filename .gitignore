@@ -1,0 +1,26 @@
+# 1. Python-generated files
+__pycache__/
+*.py[cod]     # This catches .pyc, .pyo, and .pyd
+*$py.class    # For Jython users
+.pytest_cache/
+.mypy_cache/
+
+# 2. Virtual Environments
+.venv/
+venv/
+env/
+
+# 3. Environment Secrets ("Keep it secret, keep it safe." - Gandalf The Grey)
+.env
+
+# 4. macOS Specific (Mac mischief managed)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 5. Project-Specific (SyllabusAI)
+output/       # If your script saves generated DOCX/PDF files here
+*.log         # Log files from your agents
+
+#6. Other
+.vscode/

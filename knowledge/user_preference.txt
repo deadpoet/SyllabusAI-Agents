@@ -1,0 +1,6 @@
+User name: Gerald Soco
+Professional Role: Senior Technical Writer & Instructional Design Specialist
+Key Interests: Docs-as-Code, RESTful API Documentation, AI Integration in Technical Writing, and Instructional Design (ADDIE/Kirkpatrick models).
+Location: Longmont, Colorado
+Active Clearances: Public Trust (IRS MBI)
+Current Goal: Developing SyllabusAI, an automated curriculum development platform.

@@ -1,0 +1,31 @@
+draft_syllabus_task:
+  description: >
+    Analyze the provided technical requirements for {topic}. 
+    Create a comprehensive training syllabus that includes:
+    1. A high-level course overview and learning objectives using the ADDIE model.
+    2. A day-by-day breakdown (ILT or VILT format).
+    3. Specific module titles followed by their duration in minutes 
+       (e.g., "Module 1: Introduction to Docs-as-Code: 90 mins").
+    4. Prerequisites and technical environment setup requirements.
+  expected_output: >
+    A structured Markdown document containing the full syllabus draft with 
+    explicit minute-based durations for every module.
+  agent: lead_instructional_designer
+
+audit_syllabus_task:
+  description: >
+    Review the draft syllabus produced by the Lead Instructional Designer.
+    Your audit MUST include:
+    1. Technical Accuracy: Ensure the content matches the {topic} requirements.
+    2. Logical Flow: Verify the pedagogical progression of modules.
+    3. Mandatory Timing Audit: You MUST extract the module names and 
+       durations and pass them to the 'syllabus_duration_calculator' tool.
+    4. Break Verification: Confirm that a 15-minute break is accounted for 
+       every 120 minutes of instruction.
+    If the timing is off, delegate the task back to the designer with 
+    specific correction instructions.
+  expected_output: >
+    A final, "Auditor-Approved" version of the syllabus. This must include 
+    a "Timing Audit Report" section at the bottom showing the tool's 
+    output (total hours/minutes and number of breaks).
+  agent: technical_quality_auditor

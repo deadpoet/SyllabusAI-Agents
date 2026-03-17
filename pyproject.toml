@@ -1,0 +1,28 @@
+[project]
+name = "syllabus_ai_agents"
+version = "0.1.0"
+description = "syllabus-ai-agents using crewAI"
+authors = [{ name = "Gerald Soco", email = "gerrysoco@pm.me" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]==1.10.1",
+    "langchain-google-genai>=4.2.1",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.1",
+    "reportlab>=4.4.10",
+]
+
+[project.scripts]
+syllabus_ai_agents = "syllabus_ai_agents.main:run"
+run_crew = "syllabus_ai_agents.main:run"
+train = "syllabus_ai_agents.main:train"
+replay = "syllabus_ai_agents.main:replay"
+test = "syllabus_ai_agents.main:test"
+run_with_trigger = "syllabus_ai_agents.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
