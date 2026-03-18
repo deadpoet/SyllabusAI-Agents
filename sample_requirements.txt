@@ -7,7 +7,7 @@ CORE REQUIREMENTS:
 2. Authentication & Authorization: Explain OAuth2, SAML, and API Keys within a cleared environment. (90 mins)
 3. Endpoint Documentation: How to document GET, POST, and DELETE methods including status codes. (60 mins)
 4. Error Handling & Response Schemas: Best practices for explaining 4xx and 5xx errors. (45 mins)
-5. Practical Lab: Documenting a mock IRS Modernization API using Swagger UI. (120 mins)
+5. Practical Lab: Documenting a mock Modernization API using Swagger UI. (120 mins)
 
 PEDAGOGICAL GOALS:
 - Align with the ADDIE model.
