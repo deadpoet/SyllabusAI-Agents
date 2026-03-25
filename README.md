@@ -1,6 +1,6 @@
-# SyllabusAI Agents Crew 🎓
+# SyllabusAI Agent 🎓
 
-**SyllabusAI** is an agentic AI system designed to modernize legacy documentation and automate complex curriculum development. Built with the [crewAI](https://crewai.com) framework and powered by **Gemini 2.0 Flash**, it transforms technical requirements (PDF/DOCX) into structured, timed course outlines for ILT, VILT, and Self-Paced modalities.
+**SyllabusAI-Agent** is an agentic AI system designed to modernize legacy documentation and automate complex curriculum development. Built with the [crewAI](https://crewai.com) framework and powered by **Gemini 2.0 Flash**, it transforms technical requirements (PDF/DOCX) into structured, timed course outlines for ILT, VILT, and Self-Paced modalities.
 
 # 🛠 Prerequisites
 
